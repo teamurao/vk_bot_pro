@@ -32,8 +32,3 @@ python bot.py
 - `ask ai <question>`: direct call to AI.
 - Any other text: AI fallback response.
 
-## Notes
-
-- If `HF_API_TOKEN`/`HF_TOKEN` is missing, bot returns a safe fallback message instead of crashing.
-- You can switch model through `HF_MODEL`.
-- If API returns `410 Gone`, the selected model is unavailable for HF Router; set another `HF_MODEL`.
